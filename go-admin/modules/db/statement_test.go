@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"testing"
 
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/mssql"
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/postgres"
 	"github.com/magiconair/properties/assert"
+	_ "go-admin/go-admin/modules/db/drivers/mssql"
+	_ "go-admin/go-admin/modules/db/drivers/postgres"
 )
 
 func testSQLWhereIn(t *testing.T, conn Connection) {

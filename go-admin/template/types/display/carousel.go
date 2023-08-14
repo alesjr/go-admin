@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"strconv"
 
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/template/types"
 )
 
 type Carousel struct {

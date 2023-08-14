@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"net/http"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/response"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/plugins/admin/modules/response"
 )
 
 // ShowInstall show install page.

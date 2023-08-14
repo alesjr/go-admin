@@ -1,10 +1,10 @@
 package example
 
 import (
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/auth"
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/service"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/auth"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/service"
 )
 
 func (e *Example) initRouter(prefix string, srv service.List) *context.App {

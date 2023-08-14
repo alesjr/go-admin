@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/constant"
 	"github.com/gavv/httpexpect"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/plugins/admin/modules/constant"
 )
 
 func apiTest(e *httpexpect.Expect, sesID *http.Cookie) {

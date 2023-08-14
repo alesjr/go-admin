@@ -1,6 +1,6 @@
 package datamodel
 
-import "alesjr/go-admin/go-admin/plugins/admin/modules/table"
+import "go-admin/go-admin/plugins/admin/modules/table"
 
 // Generators is a map of table models.
 //

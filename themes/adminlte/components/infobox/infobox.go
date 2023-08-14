@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"strings"
 
-	adminTemplate "alesjr/go-admin/go-admin/template"
+	adminTemplate "go-admin/go-admin/template"
 )
 
 type InfoBox struct {

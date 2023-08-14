@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"time"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/db/dialect"
-	"alesjr/go-admin/go-admin/modules/logger"
-	"alesjr/go-admin/go-admin/plugins/admin/modules"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/db/dialect"
+	"go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/plugins/admin/modules"
 )
 
 const DefaultCookieKey = "go_admin_session"

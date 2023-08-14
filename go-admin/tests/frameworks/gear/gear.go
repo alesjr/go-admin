@@ -2,31 +2,31 @@ package gear
 
 import (
 	// add gin adapter
-	ada "alesjr/go-admin/go-admin/adapter/gear"
+	ada "go-admin/go-admin/adapter/gear"
 
 	"github.com/teambition/gear"
 
 	// add mysql driver
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/mysql"
+	_ "go-admin/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/postgres"
+	_ "go-admin/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/sqlite"
+	_ "go-admin/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/mssql"
+	_ "go-admin/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
-	"alesjr/go-admin/themes/adminlte"
+	"go-admin/themes/adminlte"
 
 	"net/http"
 	"os"
 
-	"alesjr/go-admin/go-admin/engine"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/table"
-	"alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/chartjs"
-	"alesjr/go-admin/go-admin/tests/tables"
+	"go-admin/go-admin/engine"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/plugins/admin/modules/table"
+	"go-admin/go-admin/template"
+	"go-admin/go-admin/template/chartjs"
+	"go-admin/go-admin/tests/tables"
 )
 
 func internalHandler() http.Handler {

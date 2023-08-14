@@ -7,7 +7,7 @@ package dialect
 import (
 	"strings"
 
-	"alesjr/go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/config"
 )
 
 // Dialect is methods set of different driver.

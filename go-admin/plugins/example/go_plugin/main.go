@@ -1,12 +1,12 @@
 package main
 
 import (
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/auth"
-	c "alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/service"
-	"alesjr/go-admin/go-admin/plugins"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/auth"
+	c "go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/service"
+	"go-admin/go-admin/plugins"
 )
 
 type Example struct {

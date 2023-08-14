@@ -6,11 +6,11 @@ import (
 	"os"
 	"runtime"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/auth"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/modules/system"
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/auth"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/modules/system"
+	"go-admin/go-admin/template/types"
 )
 
 func (h *Handler) SystemInfo(ctx *context.Context) {

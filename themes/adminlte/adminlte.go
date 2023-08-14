@@ -3,11 +3,11 @@ package adminlte
 import (
 	"strings"
 
-	adminTemplate "alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/components"
-	"alesjr/go-admin/go-admin/template/types"
-	"alesjr/go-admin/themes/adminlte/resource"
-	"alesjr/go-admin/themes/common"
+	adminTemplate "go-admin/go-admin/template"
+	"go-admin/go-admin/template/components"
+	"go-admin/go-admin/template/types"
+	"go-admin/themes/adminlte/resource"
+	"go-admin/themes/common"
 
 	"github.com/gobuffalo/packr/v2"
 )

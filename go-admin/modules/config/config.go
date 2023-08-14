@@ -17,9 +17,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"alesjr/go-admin/go-admin/modules/logger"
-	"alesjr/go-admin/go-admin/modules/utils"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/form"
+	"go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/modules/utils"
+	"go-admin/go-admin/plugins/admin/modules/form"
 	"gopkg.in/ini.v1"
 	"gopkg.in/yaml.v2"
 )

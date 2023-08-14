@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/guard"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/response"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/plugins/admin/modules/guard"
+	"go-admin/go-admin/plugins/admin/modules/response"
 )
 
 // Update update the table row of given id.

@@ -1,18 +1,18 @@
 package admin
 
 import (
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/service"
-	"alesjr/go-admin/go-admin/modules/system"
-	"alesjr/go-admin/go-admin/modules/utils"
-	"alesjr/go-admin/go-admin/plugins"
-	"alesjr/go-admin/go-admin/plugins/admin/controller"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/guard"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/table"
-	"alesjr/go-admin/go-admin/template/types"
-	"alesjr/go-admin/go-admin/template/types/action"
-	_ "alesjr/go-admin/go-admin/template/types/display"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/service"
+	"go-admin/go-admin/modules/system"
+	"go-admin/go-admin/modules/utils"
+	"go-admin/go-admin/plugins"
+	"go-admin/go-admin/plugins/admin/controller"
+	"go-admin/go-admin/plugins/admin/modules/guard"
+	"go-admin/go-admin/plugins/admin/modules/table"
+	"go-admin/go-admin/template/types"
+	"go-admin/go-admin/template/types/action"
+	_ "go-admin/go-admin/template/types/display"
 )
 
 // Admin is a GoAdmin plugin.

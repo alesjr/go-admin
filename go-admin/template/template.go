@@ -14,16 +14,16 @@ import (
 	"strings"
 	"sync"
 
-	c "alesjr/go-admin/go-admin/modules/config"
-	errors2 "alesjr/go-admin/go-admin/modules/errors"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/modules/logger"
-	"alesjr/go-admin/go-admin/modules/menu"
-	"alesjr/go-admin/go-admin/modules/system"
-	"alesjr/go-admin/go-admin/modules/utils"
-	"alesjr/go-admin/go-admin/plugins/admin/models"
-	"alesjr/go-admin/go-admin/template/login"
-	"alesjr/go-admin/go-admin/template/types"
+	c "go-admin/go-admin/modules/config"
+	errors2 "go-admin/go-admin/modules/errors"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/modules/menu"
+	"go-admin/go-admin/modules/system"
+	"go-admin/go-admin/modules/utils"
+	"go-admin/go-admin/plugins/admin/models"
+	"go-admin/go-admin/template/login"
+	"go-admin/go-admin/template/types"
 )
 
 // Template is the interface which contains methods of ui components.
@@ -265,8 +265,8 @@ type Component interface {
 	// {{.UrlPrefix}}/assets/login/css/bootstrap.min.css => login/css/bootstrap.min.css
 	//
 	// See:
-	// https://alesjr/go-admin/go-admin/blob/master/template/login/theme1.tmpl#L32
-	// https://alesjr/go-admin/go-admin/blob/master/template/login/list.go
+	// https://go-admin/go-admin/blob/master/template/login/theme1.tmpl#L32
+	// https://go-admin/go-admin/blob/master/template/login/list.go
 	GetAssetList() []string
 
 	// GetAsset return the asset content according to the corresponding url suffix.

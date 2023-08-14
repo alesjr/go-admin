@@ -3,15 +3,15 @@ package response
 import (
 	"net/http"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/auth"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/errors"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/modules/menu"
-	"alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/auth"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/errors"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/modules/menu"
+	"go-admin/go-admin/template"
+	"go-admin/go-admin/template/types"
 )
 
 func Ok(ctx *context.Context) {

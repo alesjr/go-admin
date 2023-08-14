@@ -5,17 +5,17 @@ import (
 	"regexp"
 	"strings"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/auth"
-	"alesjr/go-admin/go-admin/modules/errors"
-	"alesjr/go-admin/go-admin/modules/logger"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/constant"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/form"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/response"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/table"
-	"alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/auth"
+	"go-admin/go-admin/modules/errors"
+	"go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/plugins/admin/modules/constant"
+	"go-admin/go-admin/plugins/admin/modules/form"
+	"go-admin/go-admin/plugins/admin/modules/parameter"
+	"go-admin/go-admin/plugins/admin/modules/response"
+	"go-admin/go-admin/plugins/admin/modules/table"
+	"go-admin/go-admin/template"
+	"go-admin/go-admin/template/types"
 )
 
 // GlobalDeferHandler is a global error handler of admin plugin.

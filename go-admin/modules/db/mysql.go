@@ -7,7 +7,7 @@ package db
 import (
 	"database/sql"
 
-	"alesjr/go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/config"
 )
 
 // SQLTx is an in-progress database transaction.

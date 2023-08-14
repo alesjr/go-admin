@@ -3,17 +3,17 @@ package datamodel
 import (
 	"fmt"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/db"
-	form2 "alesjr/go-admin/go-admin/plugins/admin/modules/form"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/table"
-	"alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/icon"
-	"alesjr/go-admin/go-admin/template/types"
-	"alesjr/go-admin/go-admin/template/types/action"
-	"alesjr/go-admin/go-admin/template/types/form"
-	selection "alesjr/go-admin/go-admin/template/types/form/select"
-	editType "alesjr/go-admin/go-admin/template/types/table"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/db"
+	form2 "go-admin/go-admin/plugins/admin/modules/form"
+	"go-admin/go-admin/plugins/admin/modules/table"
+	"go-admin/go-admin/template"
+	"go-admin/go-admin/template/icon"
+	"go-admin/go-admin/template/types"
+	"go-admin/go-admin/template/types/action"
+	"go-admin/go-admin/template/types/form"
+	selection "go-admin/go-admin/template/types/form/select"
+	editType "go-admin/go-admin/template/types/table"
 )
 
 // GetUserTable return the model of table user.

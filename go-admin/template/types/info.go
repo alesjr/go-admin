@@ -9,18 +9,18 @@ import (
 	"strconv"
 	"strings"
 
-	"alesjr/go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/config"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/errors"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/modules/logger"
-	"alesjr/go-admin/go-admin/modules/utils"
-	"alesjr/go-admin/go-admin/plugins/admin/modules"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
-	"alesjr/go-admin/go-admin/template/types/form"
-	"alesjr/go-admin/go-admin/template/types/table"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/errors"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/modules/utils"
+	"go-admin/go-admin/plugins/admin/modules"
+	"go-admin/go-admin/plugins/admin/modules/parameter"
+	"go-admin/go-admin/template/types/form"
+	"go-admin/go-admin/template/types/table"
 )
 
 // FieldModel is the single query result.

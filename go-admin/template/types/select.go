@@ -4,8 +4,8 @@ import (
 	"html/template"
 	"strconv"
 
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/modules/utils"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/modules/utils"
 )
 
 type DefaultSelection struct {

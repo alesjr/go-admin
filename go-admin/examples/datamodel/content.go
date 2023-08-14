@@ -3,17 +3,17 @@ package datamodel
 import (
 	"html/template"
 
-	"alesjr/go-admin/go-admin/context"
-	tmpl "alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/chartjs"
-	"alesjr/go-admin/go-admin/template/icon"
-	"alesjr/go-admin/go-admin/template/types"
-	"alesjr/go-admin/themes/adminlte/components/chart_legend"
-	"alesjr/go-admin/themes/adminlte/components/description"
-	"alesjr/go-admin/themes/adminlte/components/infobox"
-	"alesjr/go-admin/themes/adminlte/components/productlist"
-	"alesjr/go-admin/themes/adminlte/components/progress_group"
-	"alesjr/go-admin/themes/adminlte/components/smallbox"
+	"go-admin/go-admin/context"
+	tmpl "go-admin/go-admin/template"
+	"go-admin/go-admin/template/chartjs"
+	"go-admin/go-admin/template/icon"
+	"go-admin/go-admin/template/types"
+	"go-admin/themes/adminlte/components/chart_legend"
+	"go-admin/themes/adminlte/components/description"
+	"go-admin/themes/adminlte/components/infobox"
+	"go-admin/themes/adminlte/components/productlist"
+	"go-admin/themes/adminlte/components/progress_group"
+	"go-admin/themes/adminlte/components/smallbox"
 )
 
 // GetContent return the content of index page.

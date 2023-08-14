@@ -3,9 +3,9 @@ package action
 import (
 	"html/template"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/constant"
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/constant"
+	"go-admin/go-admin/template/types"
 )
 
 type FileUploadAction struct {

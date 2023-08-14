@@ -12,8 +12,8 @@ import (
 	"strings"
 	"sync"
 
-	"alesjr/go-admin/go-admin/modules/db/dialect"
-	"alesjr/go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/modules/db/dialect"
+	"go-admin/go-admin/modules/logger"
 )
 
 // SQL wraps the Connection and driver dialect methods.

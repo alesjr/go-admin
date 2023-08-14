@@ -6,16 +6,16 @@ import (
 	"os"
 	"testing"
 
-	_ "alesjr/go-admin/go-admin/adapter/gin"
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/mysql"
-	_ "alesjr/go-admin/themes/adminlte"
+	_ "go-admin/go-admin/adapter/gin"
+	_ "go-admin/go-admin/modules/db/drivers/mysql"
+	_ "go-admin/themes/adminlte"
 
-	"alesjr/go-admin/go-admin/engine"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/plugins/admin"
-	"alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/chartjs"
-	"alesjr/go-admin/go-admin/tests/tables"
+	"go-admin/go-admin/engine"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/plugins/admin"
+	"go-admin/go-admin/template"
+	"go-admin/go-admin/template/chartjs"
+	"go-admin/go-admin/tests/tables"
 
 	"github.com/gin-gonic/gin"
 )

@@ -3,7 +3,7 @@ package display
 import (
 	"html/template"
 
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/template/types"
 )
 
 type Dot struct {

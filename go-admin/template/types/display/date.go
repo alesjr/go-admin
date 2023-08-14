@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/template/types"
 )
 
 type Date struct {

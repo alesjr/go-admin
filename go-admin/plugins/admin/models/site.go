@@ -3,12 +3,12 @@ package models
 import (
 	"database/sql"
 
-	"alesjr/go-admin/go-admin/modules/utils"
+	"go-admin/go-admin/modules/utils"
 
-	"alesjr/go-admin/go-admin/modules/collection"
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/db/dialect"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/form"
+	"go-admin/go-admin/modules/collection"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/db/dialect"
+	"go-admin/go-admin/plugins/admin/modules/form"
 )
 
 // SiteModel is role model structure.

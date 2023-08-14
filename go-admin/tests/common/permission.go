@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/constant"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/form"
 	"github.com/gavv/httpexpect"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/plugins/admin/modules/constant"
+	"go-admin/go-admin/plugins/admin/modules/form"
 )
 
 func permissionTest(e *httpexpect.Expect, sesID *http.Cookie) {

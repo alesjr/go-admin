@@ -8,17 +8,17 @@ import (
 	"net/http"
 	"net/url"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/constant"
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/errors"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/modules/logger"
-	"alesjr/go-admin/go-admin/modules/page"
-	"alesjr/go-admin/go-admin/plugins/admin/models"
-	template2 "alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/constant"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/errors"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/modules/page"
+	"go-admin/go-admin/plugins/admin/models"
+	template2 "go-admin/go-admin/template"
+	"go-admin/go-admin/template/types"
 )
 
 // Invoker contains the callback functions which are used

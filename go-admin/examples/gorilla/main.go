@@ -7,17 +7,17 @@ import (
 	"os/signal"
 	"time"
 
-	_ "alesjr/go-admin/go-admin/adapter/gorilla"
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/mysql"
-	_ "alesjr/go-admin/themes/adminlte"
+	_ "go-admin/go-admin/adapter/gorilla"
+	_ "go-admin/go-admin/modules/db/drivers/mysql"
+	_ "go-admin/themes/adminlte"
 
-	"alesjr/go-admin/go-admin/engine"
-	"alesjr/go-admin/go-admin/examples/datamodel"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/plugins/example"
-	"alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/chartjs"
+	"go-admin/go-admin/engine"
+	"go-admin/go-admin/examples/datamodel"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/plugins/example"
+	"go-admin/go-admin/template"
+	"go-admin/go-admin/template/chartjs"
 
 	"github.com/gorilla/mux"
 )

@@ -10,11 +10,11 @@ import (
 	"strconv"
 	"strings"
 
-	"alesjr/go-admin/go-admin/modules/db/dialect"
+	"go-admin/go-admin/modules/db/dialect"
 
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/plugins/admin/models"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/plugins/admin/models"
 )
 
 // Item is an menu item.

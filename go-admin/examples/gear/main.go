@@ -6,20 +6,20 @@ import (
 	"os/signal"
 	"time"
 
-	_ "alesjr/go-admin/go-admin/adapter/gear"
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/mysql"
-	_ "alesjr/go-admin/themes/sword"
+	_ "go-admin/go-admin/adapter/gear"
+	_ "go-admin/go-admin/modules/db/drivers/mysql"
+	_ "go-admin/themes/sword"
 
 	"github.com/teambition/gear"
 
-	"alesjr/go-admin/go-admin/engine"
-	"alesjr/go-admin/go-admin/examples/datamodel"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/plugins/example"
-	"alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/chartjs"
-	"alesjr/go-admin/themes/adminlte"
+	"go-admin/go-admin/engine"
+	"go-admin/go-admin/examples/datamodel"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/plugins/example"
+	"go-admin/go-admin/template"
+	"go-admin/go-admin/template/chartjs"
+	"go-admin/themes/adminlte"
 )
 
 func main() {

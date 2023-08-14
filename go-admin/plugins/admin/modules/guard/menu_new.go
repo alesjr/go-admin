@@ -4,10 +4,10 @@ import (
 	"html/template"
 	"strconv"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/auth"
-	"alesjr/go-admin/go-admin/modules/errors"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/form"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/auth"
+	"go-admin/go-admin/modules/errors"
+	"go-admin/go-admin/plugins/admin/modules/form"
 )
 
 type MenuNewParam struct {

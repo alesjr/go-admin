@@ -3,9 +3,9 @@ package action
 import (
 	"html/template"
 
-	"alesjr/go-admin/go-admin/plugins/admin/modules/form"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/plugins/admin/modules/form"
+	"go-admin/go-admin/plugins/admin/modules/parameter"
+	"go-admin/go-admin/template/types"
 )
 
 type FieldFilterAction struct {

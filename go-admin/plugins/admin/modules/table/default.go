@@ -11,19 +11,19 @@ import (
 	"strings"
 	"time"
 
-	"alesjr/go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/config"
 
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/db/dialect"
-	errs "alesjr/go-admin/go-admin/modules/errors"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/modules/logger"
-	"alesjr/go-admin/go-admin/plugins/admin/modules"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/constant"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/form"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/paginator"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/db/dialect"
+	errs "go-admin/go-admin/modules/errors"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/plugins/admin/modules"
+	"go-admin/go-admin/plugins/admin/modules/constant"
+	"go-admin/go-admin/plugins/admin/modules/form"
+	"go-admin/go-admin/plugins/admin/modules/paginator"
+	"go-admin/go-admin/plugins/admin/modules/parameter"
+	"go-admin/go-admin/template/types"
 )
 
 // DefaultTable is an implementation of table.Table

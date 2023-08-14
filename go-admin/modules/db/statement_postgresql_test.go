@@ -7,7 +7,7 @@ import (
 	"path"
 	"testing"
 
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/postgres"
+	_ "go-admin/go-admin/modules/db/drivers/postgres"
 )
 
 var driverTestPgConn Connection

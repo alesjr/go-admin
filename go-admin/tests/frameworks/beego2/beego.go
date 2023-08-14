@@ -5,26 +5,26 @@ import (
 	"os"
 
 	// add beego adapter
-	_ "alesjr/go-admin/go-admin/adapter/beego2"
+	_ "go-admin/go-admin/adapter/beego2"
 	// add mysql driver
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/mysql"
+	_ "go-admin/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/postgres"
+	_ "go-admin/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/sqlite"
+	_ "go-admin/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "alesjr/go-admin/go-admin/modules/db/drivers/mssql"
+	_ "go-admin/go-admin/modules/db/drivers/mssql"
 
-	"alesjr/go-admin/go-admin/engine"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/plugins/admin"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/table"
-	"alesjr/go-admin/go-admin/plugins/example"
-	"alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/chartjs"
-	"alesjr/go-admin/go-admin/tests/tables"
-	"alesjr/go-admin/themes/adminlte"
+	"go-admin/go-admin/engine"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/plugins/admin"
+	"go-admin/go-admin/plugins/admin/modules/table"
+	"go-admin/go-admin/plugins/example"
+	"go-admin/go-admin/template"
+	"go-admin/go-admin/template/chartjs"
+	"go-admin/go-admin/tests/tables"
+	"go-admin/themes/adminlte"
 
 	"github.com/beego/beego/v2/server/web"
 )

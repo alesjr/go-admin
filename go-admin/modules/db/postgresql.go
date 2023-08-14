@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"alesjr/go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/config"
 )
 
 // Postgresql is a Connection of postgresql.

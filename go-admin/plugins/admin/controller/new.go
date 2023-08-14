@@ -5,21 +5,21 @@ import (
 	template2 "html/template"
 	"net/http"
 
-	"alesjr/go-admin/go-admin/template"
+	"go-admin/go-admin/template"
 
-	"alesjr/go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/modules/logger"
 
-	"alesjr/go-admin/go-admin/plugins/admin/modules/response"
+	"go-admin/go-admin/plugins/admin/modules/response"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/auth"
-	"alesjr/go-admin/go-admin/modules/file"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/plugins/admin/modules"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/constant"
-	form2 "alesjr/go-admin/go-admin/plugins/admin/modules/form"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/guard"
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/auth"
+	"go-admin/go-admin/modules/file"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/plugins/admin/modules"
+	"go-admin/go-admin/plugins/admin/modules/constant"
+	form2 "go-admin/go-admin/plugins/admin/modules/form"
+	"go-admin/go-admin/plugins/admin/modules/guard"
+	"go-admin/go-admin/template/types"
 )
 
 // ShowNewForm show a new form page.

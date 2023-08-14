@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/logger"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/guard"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/response"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/plugins/admin/modules/guard"
+	"go-admin/go-admin/plugins/admin/modules/response"
 )
 
 // Delete delete the row from database.

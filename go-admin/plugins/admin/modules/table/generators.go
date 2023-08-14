@@ -11,26 +11,26 @@ import (
 	"strings"
 	"time"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/collection"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/db/dialect"
-	errs "alesjr/go-admin/go-admin/modules/errors"
-	"alesjr/go-admin/go-admin/modules/language"
-	"alesjr/go-admin/go-admin/modules/logger"
-	"alesjr/go-admin/go-admin/modules/ui"
-	"alesjr/go-admin/go-admin/modules/utils"
-	"alesjr/go-admin/go-admin/plugins/admin/models"
-	form2 "alesjr/go-admin/go-admin/plugins/admin/modules/form"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/tools"
-	"alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/types"
-	"alesjr/go-admin/go-admin/template/types/action"
-	"alesjr/go-admin/go-admin/template/types/form"
-	selection "alesjr/go-admin/go-admin/template/types/form/select"
-	"alesjr/go-admin/html"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/collection"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/db/dialect"
+	errs "go-admin/go-admin/modules/errors"
+	"go-admin/go-admin/modules/language"
+	"go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/modules/ui"
+	"go-admin/go-admin/modules/utils"
+	"go-admin/go-admin/plugins/admin/models"
+	form2 "go-admin/go-admin/plugins/admin/modules/form"
+	"go-admin/go-admin/plugins/admin/modules/parameter"
+	"go-admin/go-admin/plugins/admin/modules/tools"
+	"go-admin/go-admin/template"
+	"go-admin/go-admin/template/types"
+	"go-admin/go-admin/template/types/action"
+	"go-admin/go-admin/template/types/form"
+	selection "go-admin/go-admin/template/types/form/select"
+	"go-admin/html"
 
 	"golang.org/x/crypto/bcrypt"
 )
@@ -1461,10 +1461,10 @@ func (s *SystemTable) GetGenerateForm(ctx *context.Context) (generateTool Table)
 			{Text: "time", Value: "time"},
 			{Text: "log", Value: "log"},
 			{Text: "fmt", Value: "fmt"},
-			{Text: "alesjr/go-admin/go-admin/modules/db/dialect", Value: "alesjr/go-admin/go-admin/modules/db/dialect"},
-			{Text: "alesjr/go-admin/go-admin/modules/db", Value: "alesjr/go-admin/go-admin/modules/db"},
-			{Text: "alesjr/go-admin/go-admin/modules/language", Value: "alesjr/go-admin/go-admin/modules/language"},
-			{Text: "alesjr/go-admin/go-admin/modules/logger", Value: "alesjr/go-admin/go-admin/modules/logger"},
+			{Text: "go-admin/go-admin/modules/db/dialect", Value: "go-admin/go-admin/modules/db/dialect"},
+			{Text: "go-admin/go-admin/modules/db", Value: "go-admin/go-admin/modules/db"},
+			{Text: "go-admin/go-admin/modules/language", Value: "go-admin/go-admin/modules/language"},
+			{Text: "go-admin/go-admin/modules/logger", Value: "go-admin/go-admin/modules/logger"},
 		}).
 		FieldDefault("").
 		FieldOptionExt(map[string]interface{}{

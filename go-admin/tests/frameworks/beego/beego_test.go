@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"alesjr/go-admin/go-admin/tests/common"
 	"github.com/gavv/httpexpect"
+	"go-admin/go-admin/tests/common"
 )
 
 func TestBeego(t *testing.T) {

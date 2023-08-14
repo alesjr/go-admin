@@ -6,17 +6,17 @@ import (
 	"net/http"
 	"net/url"
 
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/modules/auth"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/modules/db"
-	"alesjr/go-admin/go-admin/modules/logger"
-	"alesjr/go-admin/go-admin/modules/system"
-	"alesjr/go-admin/go-admin/plugins/admin/models"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/captcha"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/response"
-	"alesjr/go-admin/go-admin/template"
-	"alesjr/go-admin/go-admin/template/types"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/modules/auth"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/modules/db"
+	"go-admin/go-admin/modules/logger"
+	"go-admin/go-admin/modules/system"
+	"go-admin/go-admin/plugins/admin/models"
+	"go-admin/go-admin/plugins/admin/modules/captcha"
+	"go-admin/go-admin/plugins/admin/modules/response"
+	"go-admin/go-admin/template"
+	"go-admin/go-admin/template/types"
 )
 
 // Auth check the input password and username for authentication.

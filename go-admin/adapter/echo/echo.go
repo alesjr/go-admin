@@ -11,15 +11,15 @@ import (
 	"net/url"
 	"strings"
 
-	"alesjr/go-admin/go-admin/adapter"
-	"alesjr/go-admin/go-admin/context"
-	"alesjr/go-admin/go-admin/engine"
-	"alesjr/go-admin/go-admin/modules/config"
-	"alesjr/go-admin/go-admin/plugins"
-	"alesjr/go-admin/go-admin/plugins/admin/models"
-	"alesjr/go-admin/go-admin/plugins/admin/modules/constant"
-	"alesjr/go-admin/go-admin/template/types"
 	"github.com/labstack/echo/v4"
+	"go-admin/go-admin/adapter"
+	"go-admin/go-admin/context"
+	"go-admin/go-admin/engine"
+	"go-admin/go-admin/modules/config"
+	"go-admin/go-admin/plugins"
+	"go-admin/go-admin/plugins/admin/models"
+	"go-admin/go-admin/plugins/admin/modules/constant"
+	"go-admin/go-admin/template/types"
 )
 
 // Echo structure value is an Echo GoAdmin adapter.
