@@ -3,8 +3,8 @@ package paginator
 import (
 	"testing"
 
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/parameter"
+	"github.com/alesjr/go-admin/go-admin/modules/config"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
 	_ "github.com/alesjr/go-admin/themes/sword"
 )
 

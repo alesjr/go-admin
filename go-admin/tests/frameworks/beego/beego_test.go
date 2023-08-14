@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/tests/common"
+	"github.com/alesjr/go-admin/go-admin/tests/common"
 	"github.com/gavv/httpexpect"
 )
 

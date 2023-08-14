@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"testing"
 
-	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/drivers/mssql"
-	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/drivers/postgres"
+	_ "github.com/alesjr/go-admin/go-admin/modules/db/drivers/mssql"
+	_ "github.com/alesjr/go-admin/go-admin/modules/db/drivers/postgres"
 	"github.com/magiconair/properties/assert"
 )
 

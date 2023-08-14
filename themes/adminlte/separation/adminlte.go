@@ -3,10 +3,10 @@ package separation
 import (
 	"io/ioutil"
 
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
-	adminTemplate "github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/components"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	"github.com/alesjr/go-admin/go-admin/modules/config"
+	adminTemplate "github.com/alesjr/go-admin/go-admin/template"
+	"github.com/alesjr/go-admin/go-admin/template/components"
+	"github.com/alesjr/go-admin/go-admin/template/types"
 	"github.com/alesjr/go-admin/themes/adminlte/resource"
 	"github.com/alesjr/go-admin/themes/common"
 )

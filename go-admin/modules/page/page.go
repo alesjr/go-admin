@@ -7,14 +7,14 @@ package page
 import (
 	"bytes"
 
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/logger"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/menu"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/models"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	"github.com/alesjr/go-admin/go-admin/context"
+	"github.com/alesjr/go-admin/go-admin/modules/config"
+	"github.com/alesjr/go-admin/go-admin/modules/db"
+	"github.com/alesjr/go-admin/go-admin/modules/logger"
+	"github.com/alesjr/go-admin/go-admin/modules/menu"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/models"
+	"github.com/alesjr/go-admin/go-admin/template"
+	"github.com/alesjr/go-admin/go-admin/template/types"
 )
 
 // SetPageContent set and return the panel of page content.

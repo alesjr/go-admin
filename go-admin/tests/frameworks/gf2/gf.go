@@ -4,33 +4,33 @@ import (
 	// add gf adapter
 	"reflect"
 
-	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/adapter/gf2"
+	_ "github.com/alesjr/go-admin/go-admin/adapter/gf2"
 
 	"github.com/agiledragon/gomonkey"
 
 	// add mysql driver
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
-	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/drivers/mysql"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language"
+	"github.com/alesjr/go-admin/go-admin/modules/config"
+	_ "github.com/alesjr/go-admin/go-admin/modules/db/drivers/mysql"
+	"github.com/alesjr/go-admin/go-admin/modules/language"
 
 	// add postgresql driver
-	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/drivers/postgres"
+	_ "github.com/alesjr/go-admin/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/alesjr/go-admin/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/drivers/mssql"
+	_ "github.com/alesjr/go-admin/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	"github.com/alesjr/go-admin/themes/adminlte"
 
 	"net/http"
 	"os"
 
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/engine"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/table"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/chartjs"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/tests/tables"
+	"github.com/alesjr/go-admin/go-admin/engine"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/table"
+	"github.com/alesjr/go-admin/go-admin/template"
+	"github.com/alesjr/go-admin/go-admin/template/chartjs"
+	"github.com/alesjr/go-admin/go-admin/tests/tables"
 
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"

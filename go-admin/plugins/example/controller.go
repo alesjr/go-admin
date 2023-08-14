@@ -3,12 +3,12 @@ package example
 import (
 	"html/template"
 
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/auth"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/page"
-	template2 "github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/chartjs"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	"github.com/alesjr/go-admin/go-admin/context"
+	"github.com/alesjr/go-admin/go-admin/modules/auth"
+	"github.com/alesjr/go-admin/go-admin/modules/page"
+	template2 "github.com/alesjr/go-admin/go-admin/template"
+	"github.com/alesjr/go-admin/go-admin/template/chartjs"
+	"github.com/alesjr/go-admin/go-admin/template/types"
 	"github.com/alesjr/go-admin/themes/adminlte/components/chart_legend"
 	"github.com/alesjr/go-admin/themes/adminlte/components/description"
 	"github.com/alesjr/go-admin/themes/adminlte/components/infobox"

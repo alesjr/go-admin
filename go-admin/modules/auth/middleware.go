@@ -8,17 +8,17 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/constant"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/errors"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/logger"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/page"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/models"
-	template2 "github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	"github.com/alesjr/go-admin/go-admin/context"
+	"github.com/alesjr/go-admin/go-admin/modules/config"
+	"github.com/alesjr/go-admin/go-admin/modules/constant"
+	"github.com/alesjr/go-admin/go-admin/modules/db"
+	"github.com/alesjr/go-admin/go-admin/modules/errors"
+	"github.com/alesjr/go-admin/go-admin/modules/language"
+	"github.com/alesjr/go-admin/go-admin/modules/logger"
+	"github.com/alesjr/go-admin/go-admin/modules/page"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/models"
+	template2 "github.com/alesjr/go-admin/go-admin/template"
+	"github.com/alesjr/go-admin/go-admin/template/types"
 )
 
 // Invoker contains the callback functions which are used

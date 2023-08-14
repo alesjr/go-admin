@@ -1,18 +1,18 @@
 package admin
 
 import (
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/service"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/system"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/utils"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/controller"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/guard"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/table"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/action"
-	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/display"
+	"github.com/alesjr/go-admin/go-admin/context"
+	"github.com/alesjr/go-admin/go-admin/modules/config"
+	"github.com/alesjr/go-admin/go-admin/modules/service"
+	"github.com/alesjr/go-admin/go-admin/modules/system"
+	"github.com/alesjr/go-admin/go-admin/modules/utils"
+	"github.com/alesjr/go-admin/go-admin/plugins"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/controller"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/guard"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/table"
+	"github.com/alesjr/go-admin/go-admin/template/types"
+	"github.com/alesjr/go-admin/go-admin/template/types/action"
+	_ "github.com/alesjr/go-admin/go-admin/template/types/display"
 )
 
 // Admin is a GoAdmin plugin.

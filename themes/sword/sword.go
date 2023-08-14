@@ -3,9 +3,9 @@ package sword
 import (
 	"strings"
 
-	adminTemplate "github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/components"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	adminTemplate "github.com/alesjr/go-admin/go-admin/template"
+	"github.com/alesjr/go-admin/go-admin/template/components"
+	"github.com/alesjr/go-admin/go-admin/template/types"
 	"github.com/alesjr/go-admin/themes/common"
 	"github.com/alesjr/go-admin/themes/sword/resource"
 

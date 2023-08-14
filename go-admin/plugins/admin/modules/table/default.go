@@ -11,19 +11,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
+	"github.com/alesjr/go-admin/go-admin/modules/config"
 
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/dialect"
-	errs "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/errors"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/logger"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/constant"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/form"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/paginator"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/parameter"
-	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	"github.com/alesjr/go-admin/go-admin/modules/db"
+	"github.com/alesjr/go-admin/go-admin/modules/db/dialect"
+	errs "github.com/alesjr/go-admin/go-admin/modules/errors"
+	"github.com/alesjr/go-admin/go-admin/modules/language"
+	"github.com/alesjr/go-admin/go-admin/modules/logger"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/constant"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/form"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/paginator"
+	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
+	"github.com/alesjr/go-admin/go-admin/template/types"
 )
 
 // DefaultTable is an implementation of table.Table
