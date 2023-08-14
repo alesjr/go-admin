@@ -1,6 +1,6 @@
 package tables
 
-import "go-admin/go-admin/plugins/admin/modules/table"
+import "github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/table"
 
 var Generators = map[string]table.Generator{
 	"posts":    GetPostsTable,

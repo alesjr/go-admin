@@ -4,8 +4,8 @@ import (
 	"html/template"
 	"testing"
 
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
 	"github.com/stretchr/testify/assert"
-	"go-admin/go-admin/modules/config"
 )
 
 func TestAdd(t *testing.T) {

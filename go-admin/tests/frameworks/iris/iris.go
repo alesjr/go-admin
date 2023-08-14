@@ -2,32 +2,32 @@ package iris
 
 import (
 	// add iris adapter
-	_ "go-admin/go-admin/adapter/iris"
-	"go-admin/go-admin/modules/config"
-	"go-admin/go-admin/modules/language"
-	"go-admin/go-admin/plugins/admin/modules/table"
+	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/adapter/iris"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/table"
 
 	// add mysql driver
-	_ "go-admin/go-admin/modules/db/drivers/mysql"
+	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "go-admin/go-admin/modules/db/drivers/postgres"
+	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "go-admin/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "go-admin/go-admin/modules/db/drivers/mssql"
+	_ "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
-	"go-admin/themes/adminlte"
+	"github.com/alesjr/go-admin/themes/adminlte"
 
-	"go-admin/go-admin/template"
-	"go-admin/go-admin/template/chartjs"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/chartjs"
 
 	"net/http"
 	"os"
 
-	"go-admin/go-admin/engine"
-	"go-admin/go-admin/plugins/admin"
-	"go-admin/go-admin/plugins/example"
-	"go-admin/go-admin/tests/tables"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/engine"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/example"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/tests/tables"
 
 	"github.com/kataras/iris/v12"
 )

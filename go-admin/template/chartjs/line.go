@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"html/template"
 
-	template2 "go-admin/go-admin/template"
+	template2 "github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
 )
 
 type LineChart struct {

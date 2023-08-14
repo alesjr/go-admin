@@ -12,15 +12,15 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/adapter"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/engine"
+	cfg "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/models"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/constant"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
 	"github.com/go-chi/chi"
-	"go-admin/go-admin/adapter"
-	"go-admin/go-admin/context"
-	"go-admin/go-admin/engine"
-	cfg "go-admin/go-admin/modules/config"
-	"go-admin/go-admin/plugins"
-	"go-admin/go-admin/plugins/admin/models"
-	"go-admin/go-admin/plugins/admin/modules/constant"
-	"go-admin/go-admin/template/types"
 )
 
 // Chi structure value is a Chi GoAdmin adapter.

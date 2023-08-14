@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-admin/go-admin/modules/db"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db"
 )
 
 // PermissionModel is permission model structure.

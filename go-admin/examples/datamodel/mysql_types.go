@@ -1,9 +1,9 @@
 package datamodel
 
 import (
-	"go-admin/go-admin/modules/db"
-	"go-admin/go-admin/plugins/admin/modules/table"
-	"go-admin/go-admin/template/types/form"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/table"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form"
 )
 
 // GetAllTypesTable return the model of table types.

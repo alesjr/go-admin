@@ -3,16 +3,16 @@ package controller
 import (
 	"fmt"
 
-	"go-admin/go-admin/context"
-	"go-admin/go-admin/modules/auth"
-	"go-admin/go-admin/modules/language"
-	"go-admin/go-admin/plugins/admin/modules"
-	"go-admin/go-admin/plugins/admin/modules/constant"
-	form2 "go-admin/go-admin/plugins/admin/modules/form"
-	"go-admin/go-admin/plugins/admin/modules/parameter"
-	"go-admin/go-admin/template"
-	"go-admin/go-admin/template/types"
-	"go-admin/go-admin/template/types/form"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/auth"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/constant"
+	form2 "github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/form"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/parameter"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form"
 )
 
 func (h *Handler) ShowDetail(ctx *context.Context) {

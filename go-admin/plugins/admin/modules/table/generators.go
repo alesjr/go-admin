@@ -11,26 +11,26 @@ import (
 	"strings"
 	"time"
 
-	"go-admin/go-admin/context"
-	"go-admin/go-admin/modules/collection"
-	"go-admin/go-admin/modules/config"
-	"go-admin/go-admin/modules/db"
-	"go-admin/go-admin/modules/db/dialect"
-	errs "go-admin/go-admin/modules/errors"
-	"go-admin/go-admin/modules/language"
-	"go-admin/go-admin/modules/logger"
-	"go-admin/go-admin/modules/ui"
-	"go-admin/go-admin/modules/utils"
-	"go-admin/go-admin/plugins/admin/models"
-	form2 "go-admin/go-admin/plugins/admin/modules/form"
-	"go-admin/go-admin/plugins/admin/modules/parameter"
-	"go-admin/go-admin/plugins/admin/modules/tools"
-	"go-admin/go-admin/template"
-	"go-admin/go-admin/template/types"
-	"go-admin/go-admin/template/types/action"
-	"go-admin/go-admin/template/types/form"
-	selection "go-admin/go-admin/template/types/form/select"
-	"go-admin/html"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/collection"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/dialect"
+	errs "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/errors"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/logger"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/ui"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/utils"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/models"
+	form2 "github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/form"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/parameter"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/tools"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/action"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form"
+	selection "github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form/select"
+	"github.com/alesjr/go-admin/html"
 
 	"golang.org/x/crypto/bcrypt"
 )
@@ -1461,10 +1461,10 @@ func (s *SystemTable) GetGenerateForm(ctx *context.Context) (generateTool Table)
 			{Text: "time", Value: "time"},
 			{Text: "log", Value: "log"},
 			{Text: "fmt", Value: "fmt"},
-			{Text: "go-admin/go-admin/modules/db/dialect", Value: "go-admin/go-admin/modules/db/dialect"},
-			{Text: "go-admin/go-admin/modules/db", Value: "go-admin/go-admin/modules/db"},
-			{Text: "go-admin/go-admin/modules/language", Value: "go-admin/go-admin/modules/language"},
-			{Text: "go-admin/go-admin/modules/logger", Value: "go-admin/go-admin/modules/logger"},
+			{Text: "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/dialect", Value: "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db/dialect"},
+			{Text: "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db", Value: "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db"},
+			{Text: "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language", Value: "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language"},
+			{Text: "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/logger", Value: "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/logger"},
 		}).
 		FieldDefault("").
 		FieldOptionExt(map[string]interface{}{

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"html/template"
 
-	"go-admin/go-admin/template/types"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
 )
 
 type BoxAttribute struct {

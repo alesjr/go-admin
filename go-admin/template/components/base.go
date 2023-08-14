@@ -3,10 +3,10 @@ package components
 import (
 	"html/template"
 
-	"go-admin/go-admin/modules/config"
-	"go-admin/go-admin/modules/menu"
-	"go-admin/go-admin/template/types"
-	"go-admin/go-admin/template/types/form"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/menu"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form"
 )
 
 type Base struct {

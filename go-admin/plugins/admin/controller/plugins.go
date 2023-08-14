@@ -11,23 +11,23 @@ import (
 	"strings"
 	"time"
 
-	"go-admin/go-admin/modules/system"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/system"
 
-	"go-admin/go-admin/modules/logger"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/logger"
 
-	"go-admin/go-admin/modules/config"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
 
-	"go-admin/go-admin/context"
-	"go-admin/go-admin/modules/auth"
-	"go-admin/go-admin/modules/language"
-	"go-admin/go-admin/modules/remote_server"
-	"go-admin/go-admin/modules/utils"
-	"go-admin/go-admin/plugins"
-	"go-admin/go-admin/plugins/admin/modules/guard"
-	template2 "go-admin/go-admin/template"
-	"go-admin/go-admin/template/types"
-	"go-admin/go-admin/template/types/form"
-	"go-admin/html"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/auth"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/remote_server"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/utils"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/guard"
+	template2 "github.com/alesjr/go-admin/github.com/alesjr/go-admin/template"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form"
+	"github.com/alesjr/go-admin/html"
 
 	"github.com/gin-gonic/gin"
 )

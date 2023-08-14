@@ -9,18 +9,18 @@ import (
 	"strconv"
 	"strings"
 
-	"go-admin/go-admin/modules/config"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
 
-	"go-admin/go-admin/context"
-	"go-admin/go-admin/modules/db"
-	"go-admin/go-admin/modules/errors"
-	"go-admin/go-admin/modules/language"
-	"go-admin/go-admin/modules/logger"
-	"go-admin/go-admin/modules/utils"
-	"go-admin/go-admin/plugins/admin/modules"
-	"go-admin/go-admin/plugins/admin/modules/parameter"
-	"go-admin/go-admin/template/types/form"
-	"go-admin/go-admin/template/types/table"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/errors"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/logger"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/utils"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/parameter"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/table"
 )
 
 // FieldModel is the single query result.

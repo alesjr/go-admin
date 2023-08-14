@@ -3,14 +3,14 @@ package controller
 import (
 	"net/url"
 
-	"go-admin/go-admin/context"
-	"go-admin/go-admin/modules/auth"
-	"go-admin/go-admin/modules/file"
-	"go-admin/go-admin/plugins/admin/modules"
-	"go-admin/go-admin/plugins/admin/modules/constant"
-	"go-admin/go-admin/plugins/admin/modules/guard"
-	"go-admin/go-admin/plugins/admin/modules/response"
-	"go-admin/go-admin/template/types/form"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/auth"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/file"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/constant"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/guard"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/response"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form"
 )
 
 func (h *Handler) ApiUpdate(ctx *context.Context) {

@@ -5,4 +5,4 @@
 // and any other packr generated files.
 package adminlte
 
-import _ "go-admin/themes/adminlte/packrd"
+import _ "github.com/alesjr/go-admin/themes/adminlte/packrd"

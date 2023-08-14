@@ -14,16 +14,16 @@ import (
 	"strings"
 	"sync"
 
-	c "go-admin/go-admin/modules/config"
-	errors2 "go-admin/go-admin/modules/errors"
-	"go-admin/go-admin/modules/language"
-	"go-admin/go-admin/modules/logger"
-	"go-admin/go-admin/modules/menu"
-	"go-admin/go-admin/modules/system"
-	"go-admin/go-admin/modules/utils"
-	"go-admin/go-admin/plugins/admin/models"
-	"go-admin/go-admin/template/login"
-	"go-admin/go-admin/template/types"
+	c "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
+	errors2 "github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/errors"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/language"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/logger"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/menu"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/system"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/utils"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/models"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/login"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
 )
 
 // Template is the interface which contains methods of ui components.
@@ -265,8 +265,8 @@ type Component interface {
 	// {{.UrlPrefix}}/assets/login/css/bootstrap.min.css => login/css/bootstrap.min.css
 	//
 	// See:
-	// https://go-admin/go-admin/blob/master/template/login/theme1.tmpl#L32
-	// https://go-admin/go-admin/blob/master/template/login/list.go
+	// https://github.com/alesjr/go-admin/github.com/alesjr/go-admin/blob/master/template/login/theme1.tmpl#L32
+	// https://github.com/alesjr/go-admin/github.com/alesjr/go-admin/blob/master/template/login/list.go
 	GetAssetList() []string
 
 	// GetAsset return the asset content according to the corresponding url suffix.

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"go-admin/go-admin/modules/config"
-	"go-admin/go-admin/modules/service"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/service"
 )
 
 const (

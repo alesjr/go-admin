@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"strings"
 
-	"go-admin/go-admin/context"
-	"go-admin/go-admin/modules/config"
-	"go-admin/go-admin/modules/db"
-	"go-admin/go-admin/plugins/admin/modules/table"
-	"go-admin/go-admin/template/icon"
-	"go-admin/go-admin/template/types"
-	"go-admin/go-admin/template/types/action"
-	"go-admin/go-admin/template/types/form"
-	selection "go-admin/go-admin/template/types/form/select"
-	editType "go-admin/go-admin/template/types/table"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/table"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/icon"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/action"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form"
+	selection "github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form/select"
+	editType "github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/table"
 )
 
 // GetUserTable return the model of table user.

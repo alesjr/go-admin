@@ -12,15 +12,15 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/adapter"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/engine"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/config"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/models"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/constant"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types"
 	"github.com/gorilla/mux"
-	"go-admin/go-admin/adapter"
-	"go-admin/go-admin/context"
-	"go-admin/go-admin/engine"
-	"go-admin/go-admin/modules/config"
-	"go-admin/go-admin/plugins"
-	"go-admin/go-admin/plugins/admin/models"
-	"go-admin/go-admin/plugins/admin/modules/constant"
-	"go-admin/go-admin/template/types"
 )
 
 // Gorilla structure value is a Gorilla GoAdmin adapter.

@@ -5,10 +5,10 @@ package {{.Package}}
 
 import (
 	{{.ExtraImport}}
-	"go-admin/go-admin/context"
-	"go-admin/go-admin/modules/db"
-	"go-admin/go-admin/plugins/admin/modules/table"
-	"go-admin/go-admin/template/types/form"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/context"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/modules/db"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/plugins/admin/modules/table"
+	"github.com/alesjr/go-admin/github.com/alesjr/go-admin/template/types/form"
 )
 
 func Get{{.TableTitle}}Table(ctx *context.Context) table.Table {
