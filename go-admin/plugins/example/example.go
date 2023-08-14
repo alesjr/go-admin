@@ -1,9 +1,9 @@
 package example
 
 import (
-	c "github.com/alesjr/go-admin/go-admin/modules/config"
-	"github.com/alesjr/go-admin/go-admin/modules/service"
-	"github.com/alesjr/go-admin/go-admin/plugins"
+	c "alesjr/go-admin/go-admin/modules/config"
+	"alesjr/go-admin/go-admin/modules/service"
+	"alesjr/go-admin/go-admin/plugins"
 )
 
 type Example struct {

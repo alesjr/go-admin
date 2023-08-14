@@ -6,12 +6,12 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/alesjr/go-admin/go-admin/modules/language"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/form"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
-	template2 "github.com/alesjr/go-admin/go-admin/template"
-	"github.com/alesjr/go-admin/go-admin/template/components"
-	"github.com/alesjr/go-admin/go-admin/template/types"
+	"alesjr/go-admin/go-admin/modules/language"
+	"alesjr/go-admin/go-admin/plugins/admin/modules/form"
+	"alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
+	template2 "alesjr/go-admin/go-admin/template"
+	"alesjr/go-admin/go-admin/template/components"
+	"alesjr/go-admin/go-admin/template/types"
 )
 
 type Config struct {

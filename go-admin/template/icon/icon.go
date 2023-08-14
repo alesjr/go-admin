@@ -3,7 +3,7 @@ package icon
 import (
 	"html/template"
 
-	"github.com/alesjr/go-admin/html"
+	"alesjr/go-admin/html"
 )
 
 func Icon(class string, num ...int) template.HTML {

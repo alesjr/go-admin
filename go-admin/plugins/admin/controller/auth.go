@@ -6,17 +6,17 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/alesjr/go-admin/go-admin/context"
-	"github.com/alesjr/go-admin/go-admin/modules/auth"
-	"github.com/alesjr/go-admin/go-admin/modules/config"
-	"github.com/alesjr/go-admin/go-admin/modules/db"
-	"github.com/alesjr/go-admin/go-admin/modules/logger"
-	"github.com/alesjr/go-admin/go-admin/modules/system"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/models"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/captcha"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/response"
-	"github.com/alesjr/go-admin/go-admin/template"
-	"github.com/alesjr/go-admin/go-admin/template/types"
+	"alesjr/go-admin/go-admin/context"
+	"alesjr/go-admin/go-admin/modules/auth"
+	"alesjr/go-admin/go-admin/modules/config"
+	"alesjr/go-admin/go-admin/modules/db"
+	"alesjr/go-admin/go-admin/modules/logger"
+	"alesjr/go-admin/go-admin/modules/system"
+	"alesjr/go-admin/go-admin/plugins/admin/models"
+	"alesjr/go-admin/go-admin/plugins/admin/modules/captcha"
+	"alesjr/go-admin/go-admin/plugins/admin/modules/response"
+	"alesjr/go-admin/go-admin/template"
+	"alesjr/go-admin/go-admin/template/types"
 )
 
 // Auth check the input password and username for authentication.

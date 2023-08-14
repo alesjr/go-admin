@@ -5,12 +5,12 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/alesjr/go-admin/go-admin/modules/config"
-	"github.com/alesjr/go-admin/go-admin/modules/language"
-	"github.com/alesjr/go-admin/go-admin/modules/utils"
-	form2 "github.com/alesjr/go-admin/go-admin/plugins/admin/modules/form"
-	"github.com/alesjr/go-admin/go-admin/template/types"
-	"github.com/alesjr/go-admin/go-admin/template/types/form"
+	"alesjr/go-admin/go-admin/modules/config"
+	"alesjr/go-admin/go-admin/modules/language"
+	"alesjr/go-admin/go-admin/modules/utils"
+	form2 "alesjr/go-admin/go-admin/plugins/admin/modules/form"
+	"alesjr/go-admin/go-admin/template/types"
+	"alesjr/go-admin/go-admin/template/types/form"
 )
 
 type FormAttribute struct {

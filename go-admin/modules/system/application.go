@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/alesjr/go-admin/go-admin/modules/config"
-	"github.com/alesjr/go-admin/go-admin/modules/language"
-	"github.com/alesjr/go-admin/go-admin/modules/utils"
+	"alesjr/go-admin/go-admin/modules/config"
+	"alesjr/go-admin/go-admin/modules/language"
+	"alesjr/go-admin/go-admin/modules/utils"
 )
 
 var (

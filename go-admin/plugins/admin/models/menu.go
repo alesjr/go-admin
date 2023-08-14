@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/alesjr/go-admin/go-admin/modules/db"
-	"github.com/alesjr/go-admin/go-admin/modules/db/dialect"
+	"alesjr/go-admin/go-admin/modules/db"
+	"alesjr/go-admin/go-admin/modules/db/dialect"
 )
 
 // MenuModel is menu model structure.

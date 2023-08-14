@@ -12,7 +12,7 @@ import (
 	"path"
 	"sync"
 
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules"
+	"alesjr/go-admin/go-admin/plugins/admin/modules"
 )
 
 // Uploader is a file uploader which contains the method Upload.

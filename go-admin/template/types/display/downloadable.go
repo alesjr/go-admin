@@ -3,7 +3,7 @@ package display
 import (
 	"html/template"
 
-	"github.com/alesjr/go-admin/go-admin/template/types"
+	"alesjr/go-admin/go-admin/template/types"
 )
 
 type Downloadable struct {

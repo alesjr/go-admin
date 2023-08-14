@@ -7,7 +7,7 @@ package file
 import (
 	"mime/multipart"
 
-	"github.com/alesjr/go-admin/go-admin/modules/config"
+	"alesjr/go-admin/go-admin/modules/config"
 )
 
 // LocalFileUploader is an Uploader of local file engine.

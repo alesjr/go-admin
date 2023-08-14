@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"html/template"
 
-	"github.com/alesjr/go-admin/go-admin/context"
-	"github.com/alesjr/go-admin/go-admin/modules/config"
-	"github.com/alesjr/go-admin/go-admin/modules/utils"
-	"github.com/alesjr/go-admin/go-admin/template/types"
+	"alesjr/go-admin/go-admin/context"
+	"alesjr/go-admin/go-admin/modules/config"
+	"alesjr/go-admin/go-admin/modules/utils"
+	"alesjr/go-admin/go-admin/template/types"
 )
 
 type AjaxData map[string]interface{}

@@ -1,7 +1,7 @@
 # GoAdmin Official Themes
 
-- [adminlte](https://github.com/alesjr/go-admin/go-admin/themes/tree/master/adminlte)
-- [sword](https://github.com/alesjr/go-admin/go-admin/themes/tree/master/sword)
+- [adminlte](https://alesjr/go-admin/themes/tree/master/adminlte)
+- [sword](https://alesjr/go-admin/themes/tree/master/sword)
 
 [中文介绍](./README_CN.md)
 
@@ -16,7 +16,7 @@ package main
 
 import (
 	...
-	_ "github.com/alesjr/go-admin/go-admin/themes/adminlte"
+	_ "alesjr/go-admin/themes/adminlte"
 	...
 )
 

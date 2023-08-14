@@ -5,8 +5,8 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/alesjr/go-admin/go-admin/modules/config"
-	adminTemplate "github.com/alesjr/go-admin/go-admin/template"
+	"alesjr/go-admin/go-admin/modules/config"
+	adminTemplate "alesjr/go-admin/go-admin/template"
 )
 
 type BaseTheme struct {

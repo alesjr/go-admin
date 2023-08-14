@@ -11,14 +11,14 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/alesjr/go-admin/go-admin/adapter"
-	"github.com/alesjr/go-admin/go-admin/context"
-	"github.com/alesjr/go-admin/go-admin/engine"
-	"github.com/alesjr/go-admin/go-admin/modules/config"
-	"github.com/alesjr/go-admin/go-admin/plugins"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/models"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/constant"
-	"github.com/alesjr/go-admin/go-admin/template/types"
+	"alesjr/go-admin/go-admin/adapter"
+	"alesjr/go-admin/go-admin/context"
+	"alesjr/go-admin/go-admin/engine"
+	"alesjr/go-admin/go-admin/modules/config"
+	"alesjr/go-admin/go-admin/plugins"
+	"alesjr/go-admin/go-admin/plugins/admin/models"
+	"alesjr/go-admin/go-admin/plugins/admin/modules/constant"
+	"alesjr/go-admin/go-admin/template/types"
 	"github.com/gin-gonic/gin"
 )
 

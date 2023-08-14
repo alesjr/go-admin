@@ -11,26 +11,27 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alesjr/go-admin/go-admin/context"
-	"github.com/alesjr/go-admin/go-admin/modules/collection"
-	"github.com/alesjr/go-admin/go-admin/modules/config"
-	"github.com/alesjr/go-admin/go-admin/modules/db"
-	"github.com/alesjr/go-admin/go-admin/modules/db/dialect"
-	errs "github.com/alesjr/go-admin/go-admin/modules/errors"
-	"github.com/alesjr/go-admin/go-admin/modules/language"
-	"github.com/alesjr/go-admin/go-admin/modules/logger"
-	"github.com/alesjr/go-admin/go-admin/modules/ui"
-	"github.com/alesjr/go-admin/go-admin/modules/utils"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/models"
-	form2 "github.com/alesjr/go-admin/go-admin/plugins/admin/modules/form"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/tools"
-	"github.com/alesjr/go-admin/go-admin/template"
-	"github.com/alesjr/go-admin/go-admin/template/types"
-	"github.com/alesjr/go-admin/go-admin/template/types/action"
-	"github.com/alesjr/go-admin/go-admin/template/types/form"
-	selection "github.com/alesjr/go-admin/go-admin/template/types/form/select"
-	"github.com/alesjr/go-admin/html"
+	"alesjr/go-admin/go-admin/context"
+	"alesjr/go-admin/go-admin/modules/collection"
+	"alesjr/go-admin/go-admin/modules/config"
+	"alesjr/go-admin/go-admin/modules/db"
+	"alesjr/go-admin/go-admin/modules/db/dialect"
+	errs "alesjr/go-admin/go-admin/modules/errors"
+	"alesjr/go-admin/go-admin/modules/language"
+	"alesjr/go-admin/go-admin/modules/logger"
+	"alesjr/go-admin/go-admin/modules/ui"
+	"alesjr/go-admin/go-admin/modules/utils"
+	"alesjr/go-admin/go-admin/plugins/admin/models"
+	form2 "alesjr/go-admin/go-admin/plugins/admin/modules/form"
+	"alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
+	"alesjr/go-admin/go-admin/plugins/admin/modules/tools"
+	"alesjr/go-admin/go-admin/template"
+	"alesjr/go-admin/go-admin/template/types"
+	"alesjr/go-admin/go-admin/template/types/action"
+	"alesjr/go-admin/go-admin/template/types/form"
+	selection "alesjr/go-admin/go-admin/template/types/form/select"
+	"alesjr/go-admin/html"
+
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -1460,10 +1461,10 @@ func (s *SystemTable) GetGenerateForm(ctx *context.Context) (generateTool Table)
 			{Text: "time", Value: "time"},
 			{Text: "log", Value: "log"},
 			{Text: "fmt", Value: "fmt"},
-			{Text: "github.com/alesjr/go-admin/go-admin/modules/db/dialect", Value: "github.com/alesjr/go-admin/go-admin/modules/db/dialect"},
-			{Text: "github.com/alesjr/go-admin/go-admin/modules/db", Value: "github.com/alesjr/go-admin/go-admin/modules/db"},
-			{Text: "github.com/alesjr/go-admin/go-admin/modules/language", Value: "github.com/alesjr/go-admin/go-admin/modules/language"},
-			{Text: "github.com/alesjr/go-admin/go-admin/modules/logger", Value: "github.com/alesjr/go-admin/go-admin/modules/logger"},
+			{Text: "alesjr/go-admin/go-admin/modules/db/dialect", Value: "alesjr/go-admin/go-admin/modules/db/dialect"},
+			{Text: "alesjr/go-admin/go-admin/modules/db", Value: "alesjr/go-admin/go-admin/modules/db"},
+			{Text: "alesjr/go-admin/go-admin/modules/language", Value: "alesjr/go-admin/go-admin/modules/language"},
+			{Text: "alesjr/go-admin/go-admin/modules/logger", Value: "alesjr/go-admin/go-admin/modules/logger"},
 		}).
 		FieldDefault("").
 		FieldOptionExt(map[string]interface{}{

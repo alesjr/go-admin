@@ -5,13 +5,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/alesjr/go-admin/go-admin/context"
-	"github.com/alesjr/go-admin/go-admin/modules/db"
-	"github.com/alesjr/go-admin/go-admin/modules/service"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/form"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/paginator"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
-	"github.com/alesjr/go-admin/go-admin/template/types"
+	"alesjr/go-admin/go-admin/context"
+	"alesjr/go-admin/go-admin/modules/db"
+	"alesjr/go-admin/go-admin/modules/service"
+	"alesjr/go-admin/go-admin/plugins/admin/modules/form"
+	"alesjr/go-admin/go-admin/plugins/admin/modules/paginator"
+	"alesjr/go-admin/go-admin/plugins/admin/modules/parameter"
+	"alesjr/go-admin/go-admin/template/types"
 )
 
 type Generator func(ctx *context.Context) Table

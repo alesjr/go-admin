@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/alesjr/go-admin/go-admin">
+  <a href="https://alesjr/go-admin/go-admin">
     <img width="48%" alt="go-admin" src="http://quick.go-admin.cn/official/assets/imgs/github_logo.png">
   </a>
 </p>
@@ -8,11 +8,11 @@
 </p>
 <p align="center">
 <a href="http://drone.go-admin.com/alesjr/go-admin/go-admin"><img alt="Build Status" src="http://drone.go-admin.com/api/badges/alesjr/go-admin/go-admin/status.svg?ref=refs/heads/master"></a>
-  <a href="https://goreportcard.com/report/github.com/alesjr/go-admin/go-admin"><img alt="Go Report Card" src="https://camo.githubusercontent.com/59eed852617e19c272a4a4764fd09c669957fe75/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6368656e6867352f676f2d61646d696e"></a>
-  <a href="https://goreportcard.com/report/github.com/alesjr/go-admin/go-admin"><img alt="golang" src="https://img.shields.io/badge/awesome-golang-blue.svg"></a>
+  <a href="https://goreportcard.com/report/alesjr/go-admin/go-admin"><img alt="Go Report Card" src="https://camo.githubusercontent.com/59eed852617e19c272a4a4764fd09c669957fe75/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6368656e6867352f676f2d61646d696e"></a>
+  <a href="https://goreportcard.com/report/alesjr/go-admin/go-admin"><img alt="golang" src="https://img.shields.io/badge/awesome-golang-blue.svg"></a>
   <a href="https://t.me/joinchat/NlyH6Bch2QARZkArithKvg" rel="nofollow"><img alt="telegram" src="https://img.shields.io/badge/chat%20on-telegram-blue" style="max-width:100%;"></a>
   <a href="https://shang.qq.com/wpa/qunwpa?idkey=ab18729bba609c220f31516a4eb9fce27f582458bd9a865b46523adb5632b873"><img alt="qq群" src="https://img.shields.io/badge/QQ-874825430-yellow.svg"></a>
-  <a href="https://godoc.org/github.com/alesjr/go-admin/go-admin" rel="nofollow"><img src="https://camo.githubusercontent.com/a9a286d43bdfff9fb41b88b25b35ea8edd2634fc/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f646572656b7061726b65722f64656c76653f7374617475732e737667" alt="GoDoc" data-canonical-src="https://godoc.org/github.com/derekparker/delve?status.svg" style="max-width:100%;"></a>
+  <a href="https://godoc.org/alesjr/go-admin/go-admin" rel="nofollow"><img src="https://camo.githubusercontent.com/a9a286d43bdfff9fb41b88b25b35ea8edd2634fc/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f646572656b7061726b65722f64656c76653f7374617475732e737667" alt="GoDoc" data-canonical-src="https://godoc.org/github.com/derekparker/delve?status.svg" style="max-width:100%;"></a>
   <a href="https://raw.githubusercontent.com/alesjr/go-admin/go-admin/master/LICENSE" rel="nofollow"><img src="https://img.shields.io/badge/license-Apache2.0-blue.svg" alt="license" data-canonical-src="https://img.shields.io/badge/license-Apache2.0-blue.svg" style="max-width:100%;"></a>
 </p>
 <p align="center">
@@ -41,7 +41,7 @@ GoAdmin 可以帮助你的golang应用快速实现数据可视化，搭建一个
 
 ## 谁在使用GoAdmin
 
-[评论这个issue告诉我们](https://github.com/alesjr/go-admin/go-admin/issues/71).
+[评论这个issue告诉我们](https://alesjr/go-admin/go-admin/issues/71).
 
 ## 使用
 
@@ -80,17 +80,17 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/alesjr/go-admin/go-admin/adapter/gin"
-	_ "github.com/alesjr/go-admin/go-admin/modules/db/drivers/mysql"
-	"github.com/alesjr/go-admin/go-admin/engine"
-	"github.com/alesjr/go-admin/go-admin/plugins/admin"
-	"github.com/alesjr/go-admin/themes/adminlte"
-	"github.com/alesjr/go-admin/go-admin/modules/config"
-	"github.com/alesjr/go-admin/go-admin/template"
-    	"github.com/alesjr/go-admin/go-admin/template/chartjs"
-    	"github.com/alesjr/go-admin/go-admin/template/types"
-	"github.com/alesjr/go-admin/go-admin/examples/datamodel"
-	"github.com/alesjr/go-admin/go-admin/modules/language"
+	_ "alesjr/go-admin/go-admin/adapter/gin"
+	_ "alesjr/go-admin/go-admin/modules/db/drivers/mysql"
+	"alesjr/go-admin/go-admin/engine"
+	"alesjr/go-admin/go-admin/plugins/admin"
+	"alesjr/go-admin/themes/adminlte"
+	"alesjr/go-admin/go-admin/modules/config"
+	"alesjr/go-admin/go-admin/template"
+    	"alesjr/go-admin/go-admin/template/chartjs"
+    	"alesjr/go-admin/go-admin/template/types"
+	"alesjr/go-admin/go-admin/examples/datamodel"
+	"alesjr/go-admin/go-admin/modules/language"
 )
 
 func main() {
@@ -152,7 +152,7 @@ func main() {
 </p>
 </details>
 
-更多框架的例子: [https://github.com/alesjr/go-admin/go-admin/tree/master/examples](https://github.com/alesjr/go-admin/go-admin/tree/master/examples)
+更多框架的例子: [https://alesjr/go-admin/go-admin/tree/master/examples](https://alesjr/go-admin/go-admin/tree/master/examples)
 
 ### 第三步：运行
 
@@ -176,7 +176,7 @@ GO111MODULE=on go run main.go
 
 <strong>QQ群</strong>：[641768714](https://jq.qq.com/?_wv=1027&k=qn8oXyGC)，记得备注加群来意
 
-这里是[开发计划](https://github.com/alesjr/go-admin/go-admin/projects)
+这里是[开发计划](https://alesjr/go-admin/go-admin/projects)
 
 <strong>[点击这里申请加微信群（记得备注加群）](http://quick.go-admin.cn/resource/wechat_qrcode_02.jpg)</strong>
 

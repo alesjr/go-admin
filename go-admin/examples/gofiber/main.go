@@ -6,17 +6,17 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/alesjr/go-admin/go-admin/adapter/gofiber"
-	_ "github.com/alesjr/go-admin/go-admin/modules/db/drivers/mysql"
-	_ "github.com/alesjr/go-admin/themes/adminlte"
+	_ "alesjr/go-admin/go-admin/adapter/gofiber"
+	_ "alesjr/go-admin/go-admin/modules/db/drivers/mysql"
+	_ "alesjr/go-admin/themes/adminlte"
 
-	"github.com/alesjr/go-admin/go-admin/engine"
-	"github.com/alesjr/go-admin/go-admin/examples/datamodel"
-	"github.com/alesjr/go-admin/go-admin/modules/config"
-	"github.com/alesjr/go-admin/go-admin/modules/language"
-	"github.com/alesjr/go-admin/go-admin/plugins/example"
-	"github.com/alesjr/go-admin/go-admin/template"
-	"github.com/alesjr/go-admin/go-admin/template/chartjs"
+	"alesjr/go-admin/go-admin/engine"
+	"alesjr/go-admin/go-admin/examples/datamodel"
+	"alesjr/go-admin/go-admin/modules/config"
+	"alesjr/go-admin/go-admin/modules/language"
+	"alesjr/go-admin/go-admin/plugins/example"
+	"alesjr/go-admin/go-admin/template"
+	"alesjr/go-admin/go-admin/template/chartjs"
 
 	"github.com/gofiber/fiber/v2"
 )

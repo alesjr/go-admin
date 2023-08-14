@@ -3,17 +3,17 @@ package datamodel
 import (
 	"html/template"
 
-	"github.com/alesjr/go-admin/go-admin/context"
-	tmpl "github.com/alesjr/go-admin/go-admin/template"
-	"github.com/alesjr/go-admin/go-admin/template/chartjs"
-	"github.com/alesjr/go-admin/go-admin/template/icon"
-	"github.com/alesjr/go-admin/go-admin/template/types"
-	"github.com/alesjr/go-admin/themes/adminlte/components/chart_legend"
-	"github.com/alesjr/go-admin/themes/adminlte/components/description"
-	"github.com/alesjr/go-admin/themes/adminlte/components/infobox"
-	"github.com/alesjr/go-admin/themes/adminlte/components/productlist"
-	"github.com/alesjr/go-admin/themes/adminlte/components/progress_group"
-	"github.com/alesjr/go-admin/themes/adminlte/components/smallbox"
+	"alesjr/go-admin/go-admin/context"
+	tmpl "alesjr/go-admin/go-admin/template"
+	"alesjr/go-admin/go-admin/template/chartjs"
+	"alesjr/go-admin/go-admin/template/icon"
+	"alesjr/go-admin/go-admin/template/types"
+	"alesjr/go-admin/themes/adminlte/components/chart_legend"
+	"alesjr/go-admin/themes/adminlte/components/description"
+	"alesjr/go-admin/themes/adminlte/components/infobox"
+	"alesjr/go-admin/themes/adminlte/components/productlist"
+	"alesjr/go-admin/themes/adminlte/components/progress_group"
+	"alesjr/go-admin/themes/adminlte/components/smallbox"
 )
 
 // GetContent return the content of index page.

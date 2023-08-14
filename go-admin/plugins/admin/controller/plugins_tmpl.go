@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"html/template"
 
-	"github.com/alesjr/go-admin/go-admin/modules/remote_server"
+	"alesjr/go-admin/go-admin/modules/remote_server"
 
-	"github.com/alesjr/go-admin/go-admin/modules/language"
-	"github.com/alesjr/go-admin/go-admin/modules/logger"
+	"alesjr/go-admin/go-admin/modules/language"
+	"alesjr/go-admin/go-admin/modules/logger"
 )
 
 func GetPluginsPageJS(data PluginsPageJSData) template.JS {

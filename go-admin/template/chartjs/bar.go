@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"html/template"
 
-	template2 "github.com/alesjr/go-admin/go-admin/template"
+	template2 "alesjr/go-admin/go-admin/template"
 )
 
 type BarChart struct {

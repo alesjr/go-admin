@@ -3,7 +3,7 @@ package description
 import (
 	"html/template"
 
-	adminTemplate "github.com/alesjr/go-admin/go-admin/template"
+	adminTemplate "alesjr/go-admin/go-admin/template"
 )
 
 type Description struct {
