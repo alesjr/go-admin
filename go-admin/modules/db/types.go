@@ -223,6 +223,9 @@ func GetValueFromSQLOfDatabaseType(typ DatabaseType, value interface{}) Value {
 			}
 			return "false"
 		}
+		if v2, ok2 := value.([]byte); ok2 {
+			value, _ := strconv.ParseInt(string(v2), 10, 64)
+		}
 		if v, ok := value.(int64); ok {
 			if v == 0 {
 				return "false"
@@ -234,10 +237,16 @@ func GetValueFromSQLOfDatabaseType(typ DatabaseType, value interface{}) Value {
 		if v, ok := value.(int64); ok {
 			return Value(fmt.Sprintf("%d", v))
 		}
+		if v2, ok2 := value.([]byte); ok2 {
+			return Value(string(v2))
+		}
 		return "0"
 	case Contains(typ, FloatTypeList):
 		if v, ok := value.(float64); ok {
 			return Value(fmt.Sprintf("%f", v))
+		}
+		if v2, ok2 := value.([]byte); ok2 {
+			return Value(string(v2))
 		}
 		return "0"
 	case Contains(typ, UintTypeList):
