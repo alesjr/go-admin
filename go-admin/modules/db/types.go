@@ -224,7 +224,7 @@ func GetValueFromSQLOfDatabaseType(typ DatabaseType, value interface{}) Value {
 			return "false"
 		}
 		if v2, ok2 := value.([]byte); ok2 {
-			value, _ := strconv.ParseInt(string(v2), 10, 64)
+			value, _ = strconv.ParseInt(string(v2), 10, 64)
 		}
 		if v, ok := value.(int64); ok {
 			if v == 0 {
