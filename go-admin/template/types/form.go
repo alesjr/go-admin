@@ -210,7 +210,7 @@ func (f *FormField) setOptionsFromSQL(sql *db.SQL) {
 		if err == nil {
 			for _, item := range queryRes {
 				f.Options = append(f.Options, FieldOption{
-					Value: fmt.Sprintf("%v", item[f.OptionTable.ValueField]),
+					Value: fmt.Sprintf("%v", db.GetValueFromSQLOfDatabaseType(f.TypeName, item[f.OptionTable.ValueField])),
 					Text:  fmt.Sprintf("%v", item[f.OptionTable.TextField]),
 				})
 			}
